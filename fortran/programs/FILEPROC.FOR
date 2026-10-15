@@ -1,0 +1,13 @@
+      PROGRAM FILEPROC
+      INTEGER ID
+      REAL A,B,TOTAL
+      TOTAL=0.0
+   10 READ(5,*,END=90) ID,A,B
+      TOTAL=TOTAL+A+B
+      WRITE(6,20) ID,A,B,A+B
+   20 FORMAT(1H ,'ID=',I6,' A=',F10.2,' B=',F10.2,' TOTAL=',F10.2)
+      GO TO 10
+   90 WRITE(6,30) TOTAL
+   30 FORMAT(1H ,'GRAND TOTAL=',F14.2)
+      STOP
+      END
