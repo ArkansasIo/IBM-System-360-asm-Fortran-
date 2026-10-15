@@ -1,0 +1,2 @@
+CREATE DATABASE IF NOT EXISTS system360_data;
+USE system360_data;
