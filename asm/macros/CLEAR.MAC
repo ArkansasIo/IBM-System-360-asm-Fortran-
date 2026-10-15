@@ -1,0 +1,3 @@
+CLEAR    MACRO &AREA,&LEN
+         XC    &AREA(&LEN),&AREA
+         MEND
