@@ -1,0 +1,7 @@
+{
+  "architecture": "IBM System/360",
+  "record_length": 80,
+  "default_statuses": ["VALID", "INVALID"],
+  "host_database": "system360_data",
+  "spreadsheet": "excel/reports/system360_report.xlsx"
+}
