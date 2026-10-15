@@ -1,0 +1,4 @@
+ADDNUM: 125 + 375 = 500
+SUMLOOP: 10 + 20 + 30 + 40 = 100
+VALIDATE: non-negative inputs -> V
+VALIDATE: negative input -> I
