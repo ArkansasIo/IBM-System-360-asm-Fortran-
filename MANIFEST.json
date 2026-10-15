@@ -1,0 +1,14 @@
+{
+  "project": "IBM System/360 Complete Program & Data System",
+  "files": [
+    "LICENSE.txt","README.md","asm/macros/CLEAR.MAC","asm/macros/TRACE.MAC",
+    "asm/modules/ADDNUM.ASM","asm/modules/HELLO360.ASM","asm/modules/RECORDCP.ASM","asm/modules/SUMLOOP.ASM","asm/modules/VALIDATE.ASM",
+    "asm/tests/ASM_TESTS.txt","config/datasets.json","config/system.json","data/copybooks/RECORD80.CPY","data/fixed/records80.dat",
+    "data/input/sample.csv","data/input/test_input.txt","data/output/expected_output.txt","docs/architecture/DIRECTORY_MAP.md","docs/architecture/SYSTEM_OVERVIEW.md",
+    "docs/assembler/ASSEMBLER_GUIDE.md","docs/data/FIXED_RECORD_FORMAT.md","docs/excel/EXCEL_MAPPING.md","docs/fortran/FORTRAN_GUIDE.md","docs/mysql/MYSQL_MAPPING.md","docs/operations/OPERATIONS.md",
+    "fortran/lib/COMMON.INC","fortran/lib/MATHLIB.FOR","fortran/programs/CALC.FOR","fortran/programs/FILEPROC.FOR","fortran/programs/HELLO360.FOR","fortran/programs/LOGIC.FOR","fortran/programs/SORTKEY.FOR","fortran/programs/STATISTICS.FOR","fortran/tests/FORTRAN_TESTS.txt",
+    "jcl/includes/ALLOC.inc","jcl/jobs/DATAJOB.jcl","jcl/jobs/FORTRAN.jcl","jcl/jobs/HELLO.jcl","jcl/procs/PROCESS.proc","logic/README.md","logic/pseudocode/PIPELINE.txt","logic/rules/calculation.logic","logic/rules/output.logic","logic/rules/validation.logic","logic/truth_tables/VALIDATION.csv",
+    "mysql/data/sample_data.sql","mysql/queries/statistics.sql","mysql/queries/valid_records.sql","mysql/reports/program_inventory.sql","mysql/schema/00_database.sql","mysql/schema/01_tables.sql",
+    "scripts/README.md","scripts/fixed_to_csv.py","scripts/validate_project.py","tests/golden/CALC.out","tests/golden/LOGIC_INVALID.out","tests/golden/LOGIC_VALID.out","tests/integration/pipeline.expected","tests/unit/validation.expected"
+  ]
+}
