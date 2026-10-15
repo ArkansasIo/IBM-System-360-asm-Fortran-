@@ -1,0 +1,5 @@
+      FUNCTION SAFEADD(A,B)
+      REAL A,B,SAFEADD
+      SAFEADD=A+B
+      RETURN
+      END
