@@ -1,0 +1,4 @@
+CALC expected SUM=500
+LOGIC 10 20 expected STATUS=1 RESULT=30
+LOGIC -5 20 expected STATUS=0
+STATISTICS 3 / 10 20 30 expected MEAN=20
