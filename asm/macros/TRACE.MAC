@@ -1,0 +1,3 @@
+TRACE    MACRO &TEXT
+         WTO   '&TEXT'
+         MEND
