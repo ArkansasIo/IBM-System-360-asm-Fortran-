@@ -1,0 +1,12 @@
+//CALC     JOB (ACCT),'FORTRAN CALC'
+//COMPILE  EXEC FORTGCLG
+//FORT.SYSIN DD *
+      PROGRAM CALC
+      INTEGER A,B
+      A=10
+      B=20
+      WRITE(6,100) A+B
+  100 FORMAT(1H ,'SUM=',I6)
+      STOP
+      END
+/*
